@@ -4,6 +4,11 @@ import sys
 conn = sqlite3.connect("./db/lesson.db",isolation_level='IMMEDIATE')
 conn.execute("PRAGMA foreign_keys = 1")
 
+try:
+    import readline
+except ImportError:
+    import pyreadline as readline
+    
 cursor = conn.cursor()
 
 
