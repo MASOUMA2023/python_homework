@@ -1,0 +1,4 @@
+Importing and reading the Selenium and webdiver was a bit confusing and hard to undrestand. i used to go back to the lesson's examples and find out the mistake that some line didn;t import.
+
+Figuring out the correct XPath selector was tricky because OWASP’s page uses dynamic content and nested HTML tags. I had to use browser developer tools to inspect the DOM and try several XPaths until the correct ones selected all 10 items reliably.
+
